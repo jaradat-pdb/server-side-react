@@ -8,7 +8,6 @@ const dynamodb = new aws.DynamoDB.DocumentClient();
 
 module.exports.submit = async (event, context, callback) => {
     console.log(`${event.payload}`);
-    // const reqBody = JSON.parse(event.body);
     const fullName = event.payload.fullName;
     const email = event.payload.email;
     const experience = event.payload.experience;
