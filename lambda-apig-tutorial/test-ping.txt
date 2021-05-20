@@ -1,0 +1,7 @@
+{
+    "operation": "ping",
+    "payload": {
+        "pKey1": "pValue1",
+        "pKey2": "pValue2"
+    }
+}
