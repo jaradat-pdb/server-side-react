@@ -1,0 +1,11 @@
+{
+    "operation": "create",
+    "tableName": "lambda-apigateway",
+    "payload": {
+        "Item": {
+            "id": "1234ABCD",
+            "name": "Big Willay",
+            "number": 14
+        }
+    }
+}
