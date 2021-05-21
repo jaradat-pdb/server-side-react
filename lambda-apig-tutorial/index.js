@@ -1,7 +1,7 @@
 console.log(`${new Date()} | Loading function`);
 
-var aws = require('aws-sdk');
-var dynamo = new aws.DynamoDB.DocumentClient();
+var AWS = require('aws-sdk');
+var dynamo = new AWS.DynamoDB.DocumentClient();
 
 /**
  * Provide an event that contains the following keys:
@@ -13,7 +13,7 @@ var dynamo = new aws.DynamoDB.DocumentClient();
  * @param {*} callback 
  */
 exports.handler = (event, context, callback) => {
-    console.log(`${new Date()} | Received event: ${JSON.stringify(event, null, 2)}`);
+    console.log(`Received event: ${JSON.stringify(event, null, 2)}`);
 
     if (event.tableName) {
         event.payload.TableName = event.tableName;
