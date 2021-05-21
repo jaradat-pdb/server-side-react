@@ -18,6 +18,8 @@ Building React Apps with Server-Side Rendering
 [How To Create AWS Access Keys for the Serverless Framework](https://www.youtube.com/watch?v=KngM5bfpttA)
 [Create a Lambda function with the console](https://docs.aws.amazon.com/lambda/latest/dg/getting-started-create-function.html)
 
+[NextJS Authentication Crash Course with NextAuth.js](https://www.youtube.com/watch?v=o_wZIVmWteQ)
+[Create your own next-auth Login Pages](https://www.youtube.com/watch?v=kB6YNYZ63fw)
 [Client and Server Side Cookies in Next.js](https://www.youtube.com/watch?v=w8n7Soz7khw)
 
 [NextAuth.js](https://next-auth.js.org/)
