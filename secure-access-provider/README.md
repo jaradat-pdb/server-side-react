@@ -1,0 +1,2 @@
+# Secure Access Provider
+An application meant to act as an authentication and authorization service built using React, Next.js, NextAuth.js, AWS API Gateway, AWS Lambda (possibly), and AWS DynamoDB... but we'll see :moneyface:.
