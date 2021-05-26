@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import InputTextBoxComponent from './app/InputTextBoxComponent';
 import LabelComponent from './app/LabelComponent';
+import StatefulFunctionComponent from './app/StatefulFunctionComponent';
 import StatefulInputTextBoxComponent from './app/StatefulInputTextBoxComponent';
+import DataComponent from './app/DataComponent';
+import AjaxComponent from './app/AjaxComponent';
+import './index.css';
 
 var reactElement1 = React.createElement(
   'p',
@@ -38,6 +42,13 @@ function updateText() {
 }
 
 ReactDOM.render(inputTextBoxFunction(), document.getElementById('div3'));
-ReactDOM.render(<InputTextBoxComponent/>, document.getElementById('div4'));
-ReactDOM.render(<LabelComponent text='Passing a message to child via props'/>, document.getElementById('div5'));
-ReactDOM.render(<StatefulInputTextBoxComponent/>, document.getElementById('div6'));
+ReactDOM.render(
+    <React.Fragment>
+        <InputTextBoxComponent/>
+        <LabelComponent text='Passing a message to child via props'/>
+        <StatefulInputTextBoxComponent/>
+        <StatefulFunctionComponent/>
+        <DataComponent/>
+        <AjaxComponent/>
+    </React.Fragment>,
+    document.getElementById('rootDiv'));
