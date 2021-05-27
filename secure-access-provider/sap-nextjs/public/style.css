@@ -1,0 +1,41 @@
+a {
+    color: orange;
+}
+
+.img {
+    height: 50px;
+    width: 50px;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.p1 {
+    background: url(/img/img010.jpg);
+}
+
+.p2 {
+    background: url(/img/img011.jpg);
+}
+
+.p3 {
+    background: url(/img/img012.jpg);
+}
+
+.userBlock {
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px;
+    width: 255px;
+}
+
+.userDetails {
+    display: inline-block;
+    margin-left: 15px;
+}
