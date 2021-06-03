@@ -9,6 +9,7 @@ function MyComponent() {
             <GetLink disp='neo' page='page' title='page-3' class='img p3'></GetLink>
             <GetLink disp='githubUsers' page='github'></GetLink>
             <GetLink disp='aboute' page='about'></GetLink>
+            <GetLink disp='landing' page='landing'></GetLink>
         </div>
     );
 }
