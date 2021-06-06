@@ -28,6 +28,7 @@ export type AuthContextType = {
 
 export type Props = {
     children: ReactNode;
+    issues?: Issue[];
 };
 
 export type SmHeaderType = {
@@ -36,4 +37,14 @@ export type SmHeaderType = {
     SM_UNIVERSALID: string;
     SM_TRANSACTIONID: string;
     irsAssuranceLevel: string[];
+};
+
+export type Issue = {
+    id: number;
+    status: string;
+    owner: string;
+    effort?: number;
+    created: Date;
+    due?: Date;
+    title: string;
 };
