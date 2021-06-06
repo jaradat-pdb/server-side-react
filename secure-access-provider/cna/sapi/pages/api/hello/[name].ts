@@ -1,10 +1,10 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import { SmHeaderType } from '../../../interfaces/index';
+import { SadiSmSrvHeaderType } from '../../../interfaces/index';
 import * as utils from '../../../utils/index';
 
 export default function handler(req: NextApiRequest, res: NextApiResponse) {
     const { name } = req.query;
-    const smHeader: SmHeaderType = generateSmHeader();
+    const smHeader: SadiSmSrvHeaderType = generateSmHeader();
     res.setHeader('SM_SERVERSESSIONID', smHeader.SM_SERVERSESSIONID);
     res.setHeader('SM_TIMETOEXPIRE', smHeader.SM_TIMETOEXPIRE.toISOString());
     res.setHeader('SM_UNIVERSALID', smHeader.SM_UNIVERSALID);
@@ -13,7 +13,7 @@ export default function handler(req: NextApiRequest, res: NextApiResponse) {
     res.end(`Hello ${name}`);
 }
 
-function generateSmHeader(): SmHeaderType {
+function generateSmHeader(): SadiSmSrvHeaderType {
     let smServerSessionId = utils.generateSmServerSessionId();
     let smTimeToExpire = new Date();
     smTimeToExpire.setHours(smTimeToExpire.getHours() + 1);

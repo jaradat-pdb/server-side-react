@@ -31,7 +31,7 @@ export type Props = {
     issues?: Issue[];
 };
 
-export type SmHeaderType = {
+export type SadiSmSrvHeaderType = {
     SM_SERVERSESSIONID: string;
     SM_TIMETOEXPIRE: Date;
     SM_UNIVERSALID: string;
