@@ -27,5 +27,8 @@ Building React Apps with Server-Side Rendering
 [FakeMinder](https://github.com/chrisneave/FakeMinder)
 
 [Getting Started with JSDoc 3](https://jsdoc.app/about-getting-started.html)
-[JSDoc](https://github.com/jsdoc/jsdoc)
+[JSDoc (github)](https://github.com/jsdoc/jsdoc)
 [JSDoc Reference](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html)
+[JSDoc (wiki)](https://en.wikipedia.org/wiki/JSDoc)
+[uuidjs](https://github.com/uuidjs/uuid)
+[next.config.js](https://nextjs.org/docs/api-reference/next.config.js/introduction)
