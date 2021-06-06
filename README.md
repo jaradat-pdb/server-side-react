@@ -25,3 +25,7 @@ Building React Apps with Server-Side Rendering
 [NextAuth.js](https://next-auth.js.org/)
 [Adding social authentication support to a Next.js app](https://getstarted.sh/bulletproof-next/add-social-authentication)
 [FakeMinder](https://github.com/chrisneave/FakeMinder)
+
+[Getting Started with JSDoc 3](https://jsdoc.app/about-getting-started.html)
+[JSDoc](https://github.com/jsdoc/jsdoc)
+[JSDoc Reference](https://www.typescriptlang.org/docs/handbook/jsdoc-supported-types.html)
