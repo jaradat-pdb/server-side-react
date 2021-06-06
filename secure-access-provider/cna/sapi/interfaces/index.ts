@@ -39,6 +39,30 @@ export type SadiSmSrvHeaderType = {
     irsAssuranceLevel: string[];
 };
 
+export type SadiPiiSrvBodyType = {
+    GIVENNAME: string;
+    SURNAME: string;
+    MIDDLENAME?: string;
+    TIN: string | number;
+    DATEOFBIRTH: Date;
+    EMAILADDRESS: string;
+    LANDLINENUMBER?: string | number;
+    MOBILENUMBER: string | number;
+    MAILINGADDRESS: string;
+    STREETADDRESSLINE1: string;
+    STREETADDRESSLINE2?: string;
+    CITY: string;
+    STATE: string;
+    ZIP: string | number;
+    COUNTRY: string;
+    CSPNAME: string;
+    GEOLOCATION: string;
+    RISKSCORE: string;
+    CSPCREATEDDATE: Date;
+    CSPLASTMODIFIEDDATE: Date;
+    IRSCREATEDATE: Date;
+};
+
 export type Issue = {
     id: number;
     status: string;
