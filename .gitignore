@@ -41,6 +41,9 @@ build/Release
 node_modules/
 jspm_packages/
 
+# Examples directories
+secure-access-provider/cna/examples/
+
 # TypeScript v1 declaration files
 typings/
 
