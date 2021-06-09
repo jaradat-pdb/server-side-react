@@ -1,0 +1,25 @@
+import { SadiPiiSrvBodyType } from '../interfaces/index';
+
+export const StubSadiPiiSrvBody: SadiPiiSrvBodyType = {
+    GIVENNAME: 'JOHN',
+    SURNAME: 'SMITH',
+    MIDDLENAME: 'DAVID',
+    TIN: '123 - 45 - 6789',
+    DATEOFBIRTH: new Date('2000-01-01T11:12:13-07:00'),
+    EMAILADDRESS: 'J.D.SMITH@EMAIL.NET',
+    LANDLINENUMBER: '(202)123-4567',
+    MOBILENUMBER: '(202)765-4321',
+    MAILINGADDRESS: '123 FAKE ST NO. 456, ARLINGTON, VA 22203',
+    STREETADDRESSLINE1: '123 FAKE ST',
+    STREETADDRESSLINE2: 'NO 456',
+    CITY: 'ARLINGTON',
+    STATE: 'VA',
+    ZIP: '22203',
+    COUNTRY: 'USA',
+    CSPNAME: 'ID.ME',
+    GEOLOCATION: 'N/A',
+    RISKSCORE: 99,
+    CSPCREATEDDATE: new Date('2021-06-01T08:00:00-04:00'),
+    CSPLASTMODIFIEDDATE: new Date(),
+    IRSCREATEDATE: new Date('2021-06-06T08:03:22-04:00')
+};
