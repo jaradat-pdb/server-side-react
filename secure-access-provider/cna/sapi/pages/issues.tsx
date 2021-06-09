@@ -38,7 +38,7 @@ class IssueAdd extends React.Component {
                 This is a placeholder for a form to add an issue.
             </div>
         );
-    };
+    }
 }
 
 class IssueFilter extends React.Component {
@@ -48,7 +48,7 @@ class IssueFilter extends React.Component {
                 This is a placeholder for the issue filter.
             </div>
         );
-    };
+    }
 }
 
 class IssueTable extends React.Component<{}, { issues: Issue[]}> {
@@ -60,11 +60,11 @@ class IssueTable extends React.Component<{}, { issues: Issue[]}> {
         setTimeout(() => {
             this.createIssue(sampleIssue);
         }, 10000);
-    };
+    }
 
     componentDidMount() {
         this.loadData();
-    };
+    }
 
     createIssue(issue: Issue) {
         const newIssueList = this.state.issues.slice();
@@ -74,7 +74,7 @@ class IssueTable extends React.Component<{}, { issues: Issue[]}> {
         this.setState({
             issues: newIssueList
         });
-    };
+    }
 
     loadData() {
         setTimeout(() => {
@@ -82,7 +82,7 @@ class IssueTable extends React.Component<{}, { issues: Issue[]}> {
                 issues: initialIssues
             });
         }, 5000);
-    };
+    }
 
     render() {
         const issueRows = this.state.issues.map(
@@ -106,7 +106,7 @@ class IssueTable extends React.Component<{}, { issues: Issue[]}> {
                 </tbody>
             </table>
         );
-    };
+    }
 }
 
 let issueRowRenderCounter = 0;
@@ -126,7 +126,7 @@ class IssueRow extends React.Component<{ issue: Issue }, {}> {
                 <td>{issue.title}</td>
             </tr>
         );
-    };
+    }
 }
 
 export default class Issues extends React.Component {
@@ -142,5 +142,5 @@ export default class Issues extends React.Component {
                 <IssueAdd/>
             </React.Fragment>
         );
-    };
+    }
 }

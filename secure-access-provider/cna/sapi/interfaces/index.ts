@@ -31,12 +31,36 @@ export type Props = {
     issues?: Issue[];
 };
 
-export type SmHeaderType = {
+export type SadiSmSrvHeaderType = {
     SM_SERVERSESSIONID: string;
     SM_TIMETOEXPIRE: Date;
     SM_UNIVERSALID: string;
     SM_TRANSACTIONID: string;
     irsAssuranceLevel: string[];
+};
+
+export type SadiPiiSrvBodyType = {
+    GIVENNAME?: string;
+    SURNAME?: string;
+    MIDDLENAME?: string;
+    TIN?: string;
+    DATEOFBIRTH?: Date;
+    EMAILADDRESS?: string;
+    LANDLINENUMBER?: string;
+    MOBILENUMBER?: string;
+    MAILINGADDRESS?: string;
+    STREETADDRESSLINE1?: string;
+    STREETADDRESSLINE2?: string;
+    CITY?: string;
+    STATE?: string;
+    ZIP?: string;
+    COUNTRY?: string;
+    CSPNAME?: string;
+    GEOLOCATION?: string;
+    RISKSCORE?: number;
+    CSPCREATEDDATE?: Date;
+    CSPLASTMODIFIEDDATE?: Date;
+    IRSCREATEDATE?: Date;
 };
 
 export type Issue = {
