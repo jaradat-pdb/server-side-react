@@ -10,8 +10,16 @@ Building React Apps with Server-Side Rendering
 
 [What is the AWS Serverless Application Model (AWS SAM)?](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/what-is-sam.html)
 [What is AWS Lambda?](https://docs.aws.amazon.com/lambda/latest/dg/welcome.html)
+[AWS Lambda execution environment](https://docs.aws.amazon.com/lambda/latest/dg/runtimes-context.html)
+[Using AWS Lambda with the AWS Command Line Interface](https://docs.aws.amazon.com/lambda/latest/dg/gettingstarted-awscli.html)
+
 [What's the AWS SDK for JavaScript?](https://docs.aws.amazon.com/sdk-for-javascript/v3/developer-guide/welcome.html)
 [What Is Amazon Polly?](https://docs.aws.amazon.com/polly/latest/dg/what-is.html)
+
+[Deploy a Next.JS App With Serverless to AWS Lambda](https://codedaily.io/tutorials/Deploy-a-NextJS-App-With-Serverless-to-AWS-Lambda)
+[Serverless Next.js At The Edge](https://www.serverless.com/blog/serverless-nextjs)
+[A crash course on serverless-side rendering with React.js, Next.js and AWS Lambda](https://hackernoon.com/a-crash-course-on-serverless-side-rendering-with-react-js-next-js-and-aws-lambda-30e0ba967849)
+[Serverless Next.js Component](https://github.com/serverless-nextjs/serverless-next.js/#serverless-nextjs-component)
 
 [Tutorial: Deploying a Hello World application](https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/serverless-getting-started-hello-world.html)
 [Tutorial: Using AWS Lambda with Amazon API Gateway](https://docs.aws.amazon.com/lambda/latest/dg/services-apigateway-tutorial.html)
